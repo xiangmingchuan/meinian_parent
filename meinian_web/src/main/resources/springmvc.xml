@@ -16,8 +16,7 @@
             <!--项目使用vuejs中的axios异步访问数据，传递json数据，响应json数据-->
             <!--不需要视图解析器，项目所有的请求都返回json数据结构-->
 
-            <bean class="com.alibaba.fastjson.support.spring.FastJso
-            nHttpMessageConverter">
+            <bean class="com.alibaba.fastjson.support.spring.FastJsonHttpMessageConverter">
                 <property name="supportedMediaTypes" value="application/json"/>
                 <property name="features">
                     <list>
